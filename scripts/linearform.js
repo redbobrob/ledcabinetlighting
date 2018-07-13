@@ -25,9 +25,6 @@ function submitForm(e) {
   var qty03 = getInputVal("qty03");
   var qty04 = getInputVal("qty04");
   var qty05 = getInputVal("qty05");
-  var qty06 = getInputVal("qty06");
-  var qty07 = getInputVal("qty07");
-  var qty08 = getInputVal("qty08");
   var qty09 = getInputVal("qty09");
   var qty10 = getInputVal("qty10");
   var qty11 = getInputVal("qty11");
@@ -51,9 +48,6 @@ function submitForm(e) {
     qty03,
     qty04,
     qty05,
-    qty06,
-    qty07,
-    qty08,
     qty09,
     qty10,
     qty11,
@@ -94,9 +88,6 @@ function saveMessage(
   qty03,
   qty04,
   qty05,
-  qty06,
-  qty07,
-  qty08,
   qty09,
   qty10,
   qty11,
