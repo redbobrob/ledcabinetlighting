@@ -11,7 +11,7 @@ var config = {
 firebase.initializeApp(config);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref("messages");
+var m_messagesRef = firebase.database().ref("messages");
 
 // Listen for desktop form submit
 document.getElementById("m_RD10_orderForm").addEventListener("submit", submitForm);
@@ -114,7 +114,7 @@ function saveMessage(
   m_phone,
   m_message
 ) {
-  var newMessageRef = messagesRef.push();
+  var m_newMessageRef = messagesRef.push();
   newMessageRef.set({
     m_qty01_RD10_4W_WW: m_qty01,
     m_qty02_RD10_4W_CW: m_qty02,
