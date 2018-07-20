@@ -139,3 +139,37 @@ function saveMessage(
     message: message
   });
 }
+// input_spinner
+var quantity = 0;  //
+var input = document.querySelector('input');
+var plus = document.querySelector('.plus');
+var minus = document.querySelector('.minus');
+var total = 0;
+var step = quantity +1;
+
+plus.addEventListener('click', function(e) {
+  e.preventDefault();
+  total += step;
+  input.value = total;
+
+  if(input.value > 0){
+     minus.disabled = false;
+    minus.classList.remove('_disabled');
+  }
+  console.log(input.value)
+})
+
+minus.addEventListener('click', function(e) {
+  e.preventDefault;
+  total -= step;
+  input.value = total;
+
+  if(input.value < 0 || input.value == 0) {
+      minus.disabled = true;
+      minus.classList.add('_disabled');
+      input.value = 0;
+  }
+
+
+  console.log(input.value)
+})
