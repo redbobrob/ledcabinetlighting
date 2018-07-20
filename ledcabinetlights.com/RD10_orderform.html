@@ -49,6 +49,114 @@
   *{
     box-sizing: border-box;
   }
+  /* SPINNER */
+  .input_spinner {
+    display: inline-flex;
+    cursor: pointer;
+
+    input {
+        width: 70px;
+        height: 40px;
+        z-index: -1;
+        border: 1px solid #dde4e9;
+        text-align: center;
+        font-size: 1.9em;
+    }
+    button {
+        position: relative;
+        width: 40px;
+        height: 44px;
+        border: none;
+        color: #fff;
+        background: #2aa7f0; // blue
+        font-size: 1.5em;
+        z-index: 1;
+        outline: none;
+        cursor: pointer;
+        transition: all .25s;
+
+        &:after {
+            content: "";
+            display: inline-block;
+            background: #fff;
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            top: 50%;
+            left: 25%;
+        }
+
+        &:hover {
+            opacity: 0.8;
+            transition: all 0s;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+
+        &:disabled {
+            cursor: default;
+            background: #FEA68C;
+
+            &:after,
+            &:before {
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        &:first-child {
+            border-radius: 9px 0px 0px 9px;
+            margin-right: -1px;
+        }
+
+        &:last-child {
+            border-radius: 0 9px 9px 0;
+            margin-left: -1px;
+
+            &:disabled {
+
+                &:before {
+                }
+            }
+
+            &:before {
+                content: "";
+                display: inline-block;
+                background: #fff;
+                position: absolute;
+                width: 2px;
+                height: 20px;
+                top: 30%;
+                left: 48%;
+            }
+        }
+    }
+
+.minus._disabled {
+    background: #FEA68C;
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background: #fff;
+    width: 2px;
+    height: 20px;
+    top: 30%;
+    left: 48%;
+  }
+
+  &:before,
+  &:after {
+    transform: rotate(45deg);
+  }
+
+}
+}
   </style>
 </head>
 
