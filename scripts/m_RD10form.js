@@ -1,6 +1,6 @@
 // RD10 ORDER FORM
 // Initialize Firebase
-var config = {
+var m_config = {
   apiKey: "AIzaSyCel5TxnOKkqpIeSlUq2mO_OpYHqrKoLZk",
   authDomain: "led-cabinet-lighting.firebaseapp.com",
   databaseURL: "https://led-cabinet-lighting.firebaseio.com",
@@ -8,7 +8,7 @@ var config = {
   storageBucket: "led-cabinet-lighting.appspot.com",
   messagingSenderId: "436784857173"
 };
-firebase.initializeApp(config);
+firebase.initializeApp(m_config);
 
 // Reference messages collection
 var m_messagesRef = firebase.database().ref("messages");
