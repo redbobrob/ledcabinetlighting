@@ -11,7 +11,7 @@ var m_config = {
 firebase.initializeApp(m_config);
 
 // Reference messages collection
-var m_messagesRef = firebase.database().ref("mobile_messages");
+var m_messagesRef = firebase.database().ref("messages");
 
 // Listen for desktop form submit
 document.getElementById("m_RD10_orderForm").addEventListener("submit", submitForm);
