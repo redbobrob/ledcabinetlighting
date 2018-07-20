@@ -137,6 +137,7 @@
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script src="/scripts/RD10form.js"></script>
 <script>
+//Open mobile page on page load and resize
 $(window).bind("load resize",function(e){
 if (document.documentElement.clientWidth <760) {
   window.location = "/rd10-order-form-m";
