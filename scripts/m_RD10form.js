@@ -39,11 +39,11 @@ function submitForm(e) {
   var m_qty16 = getInputVal("m_qty16");
   var m_qty17 = getInputVal("m_qty17");
   // Get message values
-  var m_name = getInputVal("name");
-  var m_company = getInputVal("company");
-  var m_email = getInputVal("email");
-  var m_phone = getInputVal("phone");
-  var m_message = getInputVal("message");
+  var m_name = getInputVal("m_name");
+  var m_company = getInputVal("m_company");
+  var m_email = getInputVal("m_email");
+  var m_phone = getInputVal("m_phone");
+  var m_message = getInputVal("m_message");
 
   // Save message
   saveMessage(
