@@ -142,6 +142,11 @@ function saveMessage(
 }
 // Listen for mobile form submit
 document.getElementById("m_RD10_orderForm").addEventListener("submit", submitForm);
+
+// Submit form
+function submitForm(e) {
+  e.preventDefault();
+
 // Get orderform values
 var m_qty01 = getInputVal("qty01");
 var m_qty02 = getInputVal("qty02");
