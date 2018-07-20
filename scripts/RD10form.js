@@ -13,8 +13,10 @@ firebase.initializeApp(config);
 // Reference messages collection
 var messagesRef = firebase.database().ref("messages");
 
-// Listen for form submit
+// Listen for desktop form submit
 document.getElementById("RD10_orderForm").addEventListener("submit", submitForm);
+// Listen for mobile form submit
+document.getElementById("RD10_orderForm_m").addEventListener("submit", submitForm);
 
 // Submit form
 function submitForm(e) {
@@ -81,6 +83,9 @@ function submitForm(e) {
 
   // Clear form
   document.getElementById("RD10_orderForm").reset();
+  // Clear mobile form
+  document.getElementById("RD10_orderForm_m").reset();
+
 }
 
 // Function to get get form values
