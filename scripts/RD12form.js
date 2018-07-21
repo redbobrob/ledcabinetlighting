@@ -13,7 +13,7 @@ firebase.initializeApp(config);
 var messagesRef = firebase.database().ref("messages");
 
 // Listen for form submit
-document.getElementById("contactForm").addEventListener("submit", submitForm);
+document.getElementById("RD12_orderForm").addEventListener("submit", submitForm);
 
 // Submit form
 function submitForm(e) {
@@ -79,7 +79,7 @@ function submitForm(e) {
   }, 3000);
 
   // Clear form
-  document.getElementById("contactForm").reset();
+  document.getElementById("RD12_orderForm").reset();
 }
 
 // Function to get get form values
