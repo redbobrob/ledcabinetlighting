@@ -11,6 +11,11 @@ input, textarea, button {
 /* input boxes for submission box */
   width: 100%;
 }
+reset {
+    margin-top: .3em;
+    float: right;
+    width: 30%;
+}
 .box {
   padding: 15px;
   font-size: small;
