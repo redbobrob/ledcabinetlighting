@@ -1,0 +1,39 @@
+.orderformimage {
+  width: 100%;
+  margin: 40px 0px 40px 0px;
+}
+.column1 {
+  width: auto;
+  float: left;
+  margin: 0 0 15px;
+}
+input, textarea {
+  /* input boxes for submission box */
+  width: 100%;
+}
+.box {
+  padding: 15px;
+  font-size: small;
+  line-height: 24px;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+/* from message form */
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+.container{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+*{
+  box-sizing: border-box;
+}
