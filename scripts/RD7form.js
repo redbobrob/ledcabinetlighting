@@ -38,14 +38,14 @@ function submitForm(e) {
   var qty15 = getInputVal("qty15");
   var qty16 = getInputVal("qty16");
   var qty17 = getInputVal("qty17");
-  var qty17 = getInputVal("qty18");
-  var qty17 = getInputVal("qty19");
-  var qty17 = getInputVal("qty20");
-  var qty17 = getInputVal("qty21");
-  var qty17 = getInputVal("qty22");
-  var qty17 = getInputVal("qty23");
-  var qty17 = getInputVal("qty24");
-  var qty17 = getInputVal("qty25");
+  var qty18 = getInputVal("qty18");
+  var qty19 = getInputVal("qty19");
+  var qty20 = getInputVal("qty20");
+  var qty21 = getInputVal("qty21");
+  var qty22 = getInputVal("qty22");
+  var qty23 = getInputVal("qty23");
+  var qty24 = getInputVal("qty24");
+  var qty25 = getInputVal("qty25");
 
   // Get message values
   var name = getInputVal("name");
