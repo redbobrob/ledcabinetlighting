@@ -141,10 +141,10 @@ function saveMessage(
 ) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
-    qty01_RD7_3K_WW: qty01,
-    qty02_RD7_4K_W: qty02,
-    qty03_RD7_TR_BK: qty03,
-    qty04_RD7_SM_BK: qty04,
+    qty01_RD7_SM_BN_27K: qty01,
+    qty02_RD7_SM_BN_3K: qty02,
+    qty03_RD7_SM_BN_45K: qty03,
+    qty04_RD7_SM_BN_6K: qty04,
     qty05_RD7_TR_WT: qty05,
     qty06_RD7_SM_WT: qty06,
     qty07_RD7_TR_BN: qty07,
