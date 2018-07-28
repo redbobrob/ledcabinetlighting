@@ -14,7 +14,7 @@ firebase.initializeApp(config);
 var messagesRef = firebase.database().ref("messages");
 
 // Listen for desktop form submit
-document.getElementById("RD10_orderForm").addEventListener("submit", submitForm);
+document.getElementById("RD7_orderForm").addEventListener("submit", submitForm);
 
 // Submit form
 function submitForm(e) {
