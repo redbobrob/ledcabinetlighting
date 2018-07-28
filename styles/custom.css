@@ -7,6 +7,16 @@
   float: left;
   margin: 0 0 15px;
 }
+.column2 {
+  width: 33%;
+  float: left;
+  margin: 0 0 15px;
+}
+.column3 {
+  width: 33%;
+  float: left;
+  margin: 0 0 15px;
+}
 input, textarea, button {
 /* input boxes for submission box */
   width: 100%;
