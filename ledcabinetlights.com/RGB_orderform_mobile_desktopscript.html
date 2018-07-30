@@ -60,6 +60,24 @@
       <img class="orderformimage" src="https://static1.squarespace.com/static/5b08a6828f51300662c7a77d/t/5b527b5d758d4613dec55a28/1532132191216/RD12-Power-Supplies-Options.jpg">
       <fieldset>
         <legend>
+          <label><h3>Choose light color</h3></label>
+        </legend>
+        <form id="RGB_orderForm">
+          <div id=form1 class="box">
+            <div class="column-mobile">
+              <b>A. </b>RGB WiFi Multizone Controller<br>
+              <label>Product Code: LS-RGB-WIFI</label><br> Quantity: <input class="form-calc form-qty" type="number" name="RD10-4W-RGB " id="qty01" /><br>
+              </br>
+              <b>B. </b>RGB RF Multizone Receiver<br>
+              <label>Product Code: LS-RCV-MZ8A</label><br> Quantity: <input type="number" name="RD10-4W-RGB" id="qty02" />
+              </br>
+              <b>B. </b>RGB RF Multizone Remote<br>
+              <label>Product Code: LS-RGB-MZWMR</label><br> Quantity: <input type="number" name="RD10-4W-RGB" id="qty02" />
+            </div>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>
           <label><h3>Choose Power Supply</h3></label>
         </legend>
         <div id=form3 class="box">
@@ -158,7 +176,7 @@
  <script>
 $(window).bind("load resize",function(e){
  if (document.documentElement.clientWidth >800) {
-   window.location = "/rd10-order-form";
+   window.location = "/RGB-order-form";
  }
 });
  </script>
