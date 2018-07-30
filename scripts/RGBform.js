@@ -38,9 +38,6 @@ function submitForm(e) {
   var qty15 = getInputVal("qty15");
   var qty16 = getInputVal("qty16");
   var qty17 = getInputVal("qty17");
-  var qty18 = getInputVal("qty18");
-  var qty19 = getInputVal("qty19");
-  var qty20 = getInputVal("qty20");
   // Get message values
   var name = getInputVal("name");
   var company = getInputVal("company");
@@ -67,9 +64,6 @@ function submitForm(e) {
     qty15,
     qty16,
     qty17,
-    qty18,
-    qty19,
-    qty20,
     name,
     company,
     email,
@@ -114,9 +108,6 @@ function saveMessage(
   qty15,
   qty16,
   qty17,
-  qty18,
-  qty19,
-  qty20,
   name,
   company,
   email,
@@ -142,9 +133,6 @@ function saveMessage(
     WIRE18_2x10: qty15,
     WIRE18_2x25: qty16,
     WIRE18_2x50: qty17,
-    LS_RGB_WIFI: qty18,
-    LS_RCV_MZ8A: qty19,
-    LS_RGB_MZWMR: qty20,
     name: name,
     company: company,
     email: email,
