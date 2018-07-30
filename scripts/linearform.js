@@ -73,7 +73,7 @@ function submitForm(e) {
   }, 3000);
 
   // Clear form
-  document.getElementById("linear_orderForm").reset();
+  document.getElementById("linearbar_orderForm").reset();
 }
 
 // Function to get get form values
