@@ -38,6 +38,7 @@ function submitForm(e) {
   var qty15 = getInputVal("qty15");
   var qty16 = getInputVal("qty16");
   var qty17 = getInputVal("qty17");
+  var qty18 = getInputVal("qty18");
   // Get message values
   var name = getInputVal("name");
   var company = getInputVal("company");
@@ -64,6 +65,7 @@ function submitForm(e) {
     qty15,
     qty16,
     qty17,
+    qty18,
     name,
     company,
     email,
@@ -108,6 +110,7 @@ function saveMessage(
   qty15,
   qty16,
   qty17,
+  qty18,
   name,
   company,
   email,
@@ -133,6 +136,7 @@ function saveMessage(
     WIRE18_2x10: qty15,
     WIRE18_2x25: qty16,
     WIRE18_2x50: qty17,
+    LS_RGB_WIFI: qty18,
     name: name,
     company: company,
     email: email,
