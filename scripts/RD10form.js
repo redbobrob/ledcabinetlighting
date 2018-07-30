@@ -116,7 +116,7 @@ function saveMessage(
 ) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
-    RD10_4W_4K: qty01,
+    RD10_4W_3K: qty01,
     RD10_4W_4K: qty02,
     RD10_TR_BK: qty03,
     RD10_SM_BK: qty04,
