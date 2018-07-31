@@ -99,8 +99,8 @@ function saveMessage(
 ) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
-    LS_LL50_6_3K: qty01,
-    LS_LL50_6_4K: qty02,
+    LS_RD24_BN_3K: qty01,
+    LS_RD24_WT_3K: qty02,
     LS_24V_60W_CV: qty03,
     LS_24V_120W_CV: qty04,
     LS_24V_150W_O_Driver: qty05,
