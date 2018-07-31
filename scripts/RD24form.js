@@ -14,7 +14,7 @@ firebase.initializeApp(config);
 var messagesRef = firebase.database().ref("messages");
 
 // Listen for desktop form submit
-document.getElementById("LL50_orderForm").addEventListener("submit", submitForm);
+document.getElementById("RD24_orderForm").addEventListener("submit", submitForm);
 
 // Submit form
 function submitForm(e) {
@@ -69,7 +69,7 @@ function submitForm(e) {
   }, 3000);
 
   // Clear form
-  document.getElementById("RD10_orderForm").reset();
+  document.getElementById("RD24_orderForm").reset();
 
 }
 
