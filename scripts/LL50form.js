@@ -141,7 +141,13 @@ function saveMessage(
     LS-LL50-CC: qty08,
     LS-LL50-JC: qty08,
     LS-LL50-AC: qty08,
-    LS-LL50-TS: qty08,
+    LS-24V-60W-CV: qty08,
+    LS-24V-120W-CV: qty08,
+    LS-24V-150W-O-Driver: qty08,
+    LS-240W-24V-O-Driver: qty08,
+    LS-60D-CV: qty08,
+    LS-24V-96W-Dim-CVE: qty08,
+
 
     LS_15W_Driver: qty09,
     LS_30W_Driver: qty10,
