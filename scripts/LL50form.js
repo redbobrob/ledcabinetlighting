@@ -38,6 +38,11 @@ function submitForm(e) {
   var qty15 = getInputVal("qty15");
   var qty16 = getInputVal("qty16");
   var qty17 = getInputVal("qty17");
+  var qty17 = getInputVal("qty18");
+  var qty17 = getInputVal("qty19");
+  var qty17 = getInputVal("qty20");
+  var qty17 = getInputVal("qty21");
+
   // Get message values
   var name = getInputVal("name");
   var company = getInputVal("company");
