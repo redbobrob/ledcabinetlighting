@@ -97,7 +97,7 @@ function submitForm(e) {
   }, 3000);
 
   // Clear form
-  document.getElementById("RD10_orderForm").reset();
+  document.getElementById("RD7_orderForm").reset();
 
 }
 
